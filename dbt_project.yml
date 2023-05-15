@@ -19,9 +19,6 @@ clean-targets:
 models:
   foundational_project:
     +schema: multi1_project
-    +group: foundation
-    +access: private
     foundational_marts:
-      materialized: table
-      +access: protected
+        +materialized: table
 

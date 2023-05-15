@@ -1,18 +1,19 @@
 version: 2
 
 groups:
-  - name: foundation
+  - name: foundation_team
     owner:
-      name: The Foundation Team
-      email: foundation@example.com
+      name: Foundation Team
+      email: foundation_team@example.com
 
 models:
-    - name: foundation_stg_model
-      description: "An staging model in the foundation project"
-      access: private
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+  - name: foundation_stg_model
+    description: "An staging model in the foundation project"
+    group: foundation_team
+    access: private
+    columns:
+        - name: id
+          description: "The primary key for this table"
+          tests:
+              - unique
+              - not_null
