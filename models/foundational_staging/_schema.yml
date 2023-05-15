@@ -1,9 +1,15 @@
 version: 2
 
+groups:
+  - name: foundation
+    owner:
+      name: The Foundation Team
+      email: foundation@example.com
+
 models:
     - name: foundation_stg_model
       description: "An staging model in the foundation project"
-      access: protected
+      access: private
       columns:
           - name: id
             description: "The primary key for this table"
