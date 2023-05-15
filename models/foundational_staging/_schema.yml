@@ -1,0 +1,12 @@
+version: 2
+
+models:
+    - name: foundation_stg_model
+      description: "An staging model in the foundation project"
+      access: protected
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null

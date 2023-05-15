@@ -18,5 +18,6 @@ clean-targets:
 
 models:
   foundational_project:
+    +schema: multi1_project
     foundational_marts:
       materialized: table
