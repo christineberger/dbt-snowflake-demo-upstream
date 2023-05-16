@@ -1,0 +1,7 @@
+version: 2
+
+groups:
+  - name: foundation_team
+    owner:
+      name: Foundation Team
+      email: foundation_team@example.com

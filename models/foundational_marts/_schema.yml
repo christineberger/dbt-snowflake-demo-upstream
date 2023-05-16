@@ -1,12 +1,6 @@
 
 version: 2
 
-groups:
-  - name: foundation_team
-    owner:
-      name: Foundation Team
-      email: foundation_team@example.com
-
 models:
     - name: foundation_model
       description: "A foundation model which can be consumed by others"
