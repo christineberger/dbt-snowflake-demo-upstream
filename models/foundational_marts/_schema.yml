@@ -15,7 +15,6 @@ models:
             data_type: int
             constraints:
               - type: not_null
-              - type: unique
             tests:
                 - unique
                 - not_null
@@ -23,8 +22,6 @@ models:
             data_type: string
             constraints:
               - type: not_null
-            tests:
-                - not_null
           - name: phone
             data_type: int
           - name: city
