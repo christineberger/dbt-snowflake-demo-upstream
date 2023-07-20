@@ -1,4 +1,4 @@
-name: 'foundational_project'
+name: 'upstream_project'
 version: '1.0.0'
 config-version: 2
 
@@ -16,9 +16,8 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
-models:
-  foundational_project:
-    +schema: multi1_project
-    foundational_marts:
-        +materialized: table
+vars:
+  customer_name: 'tpch_sf1'
 
+models:
+  upstream_project:

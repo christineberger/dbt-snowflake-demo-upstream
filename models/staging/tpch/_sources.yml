@@ -1,0 +1,9 @@
+sources:
+  - name: tpch
+    database: raw_tpch
+    schema: "{{ var('customer_name') }}"
+    tables:
+      - name: customer
+      - name: orders
+      - name: region
+      - name: nation
