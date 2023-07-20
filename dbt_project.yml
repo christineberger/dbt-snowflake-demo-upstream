@@ -18,7 +18,7 @@ clean-targets:
 
 vars:
   upstream_project:
-    customer_name: 'fake'
+    # customer_name: 'fake'
 
 models:
   upstream_project:
