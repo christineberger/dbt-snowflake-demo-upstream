@@ -1,7 +1,7 @@
 sources:
   - name: tpch
     database: raw_tpch
-    schema: "{{ var('customer_name') }}"
+    schema: "{{ var('customer_name', 'tpch_sf1') }}"
     tables:
       - name: customer
       - name: orders
