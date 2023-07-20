@@ -17,7 +17,8 @@ clean-targets:
   - "dbt_packages"
 
 vars:
-  customer_name: 'fake'
+  upstream_project:
+    customer_name: 'fake'
 
 models:
   upstream_project:
