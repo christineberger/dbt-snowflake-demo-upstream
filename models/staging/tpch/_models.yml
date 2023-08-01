@@ -1,0 +1,5 @@
+models:
+  - name: stg_tpch__customers
+    access: private
+  - name: stg_tpch__orders
+    access: private
