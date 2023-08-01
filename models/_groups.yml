@@ -1,0 +1,5 @@
+groups:
+  - name: core_models
+    owner:
+      name: Core Data Team
+      email: core_data_team@dbtlabs.com
