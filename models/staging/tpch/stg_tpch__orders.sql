@@ -18,6 +18,7 @@ renamed as (
         o_clerk as order_clerk,
         o_shippriority as order_shipping_priority,
         o_comment as order_comment
+        
     from source
 
 )
