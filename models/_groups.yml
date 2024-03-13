@@ -3,4 +3,9 @@ groups:
     owner:
       name: Core Data Team
       email: core_data_team@dbtlabs.com
-      slack: core_data_team
+      slack: "@core_data_team"
+  - name: finance_models
+    owner:
+      name: Finance Team
+      email: finance_team@dbtlabs.com
+      slack: "@finance_team"
