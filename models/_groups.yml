@@ -3,4 +3,9 @@ groups:
     owner:
       name: Core Data Team
       email: core_data_team@dbtlabs.com
-      slack: core_data_team
+      slack: platform_team
+  - name: web_analytics_models
+    owner:
+      name: Web Analytics Team
+      email: web_analytics@dbtlabs.com
+      slack: web_analytics_team
