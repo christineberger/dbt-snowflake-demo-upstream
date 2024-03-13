@@ -17,6 +17,7 @@ renamed as (
         c_acctbal as customer_account_balance,
         c_mktsegment as customer_marketing_segment,
         c_comment as customer_comment
+        
     from source
 
 )
