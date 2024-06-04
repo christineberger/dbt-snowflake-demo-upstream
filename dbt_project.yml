@@ -22,4 +22,5 @@ models:
     staging:
       +materialized: view
     marts:
+      +access: public
       +materialized: table
