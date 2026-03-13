@@ -1,3 +1,3 @@
 {% macro upstream_macro() %}
-    {{ return('This is the upstream macro!') }}
+    {{ log('This is the initial macro state in the upstream project') }}
 {% endmacro %}
