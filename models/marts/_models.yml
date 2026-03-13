@@ -1,4 +1,6 @@
 models:
+  - name: same_resource_model
+    access: public
   - name: fct_customer_orders
     access: public
     latest_version: 2
