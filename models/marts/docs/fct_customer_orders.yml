@@ -1,9 +1,6 @@
 models:
-  - name: same_resource_model
-    access: public
   - name: fct_customer_orders
-    access: public
-    latest_version: 2
+    latest_version: 1
     config:
       contract:
         enforced: true
@@ -61,10 +58,8 @@ models:
           materialized: table
         columns:
           - include: all
+            exclude: [customer_comment]
 
       - v: 1
         config:
           materialized: table
-        columns:
-          - name: customer_comment
-            data_type: string
