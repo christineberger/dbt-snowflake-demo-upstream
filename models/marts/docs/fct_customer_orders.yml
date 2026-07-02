@@ -64,5 +64,6 @@ models:
             exclude: [customer_comment]
 
       - v: 1
+        deprecation_date: 2026-07-08 00:00:00.00+00:00
         config:
           materialized: table
