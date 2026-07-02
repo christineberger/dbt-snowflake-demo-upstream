@@ -19,8 +19,12 @@ clean-targets:
 models:
   upstream_project:
     +group: core_models
+    +access: protected
     staging:
+      +group: finance_models
+      +access: private
       +materialized: view
     marts:
+      +group: finance_models 
       +access: public
       +materialized: table
